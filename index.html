@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="一座记录四季、植物与园艺日常的线上花园。">
+  <meta name="theme-color" content="#173a2b">
+  <title>一隅花园｜园艺作品集</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/garden-hero.png" as="image">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="回到首页">
+      <span class="brand-mark" aria-hidden="true">叶</span>
+      <span>一隅花园</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span><span class="sr-only">打开菜单</span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="主导航">
+      <a href="#works">园艺作品</a>
+      <a href="#seasons">四季手记</a>
+      <a href="#about">关于花园</a>
+      <a class="nav-cta" href="#contact">与我交流</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-shade"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">MY LITTLE GARDEN · EST. 2026</p>
+        <h1 id="hero-title">把四季，<br>种进一方小院。</h1>
+        <p class="hero-copy">记录播种、等待与盛放，也记录泥土留在指尖的每一个寻常日子。</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#works">漫步花园 <span aria-hidden="true">↘</span></a>
+          <a class="text-link light" href="#seasons">阅读种植手记 <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <div class="hero-note" aria-hidden="true"><span>SCROLL</span><i></i></div>
+    </section>
+
+    <section class="intro section-shell reveal" aria-label="花园简介">
+      <p class="section-index">01 / 作品</p>
+      <div>
+        <p class="kicker">GROWING WITH TIME</p>
+        <h2>花园从不匆忙，<br>每一次生长都有答案。</h2>
+      </div>
+      <p class="intro-copy">这里收藏我亲手照料的植物、空间改造与四季实验。它们不一定完美，却保留了阳光、雨水与耐心共同留下的痕迹。</p>
+    </section>
+
+    <section class="works" id="works" aria-labelledby="works-title">
+      <div class="section-shell works-head reveal">
+        <div>
+          <p class="kicker">SELECTED WORKS</p>
+          <h2 id="works-title">园艺作品</h2>
+        </div>
+        <div class="filters" role="group" aria-label="筛选作品">
+          <button class="filter is-active" data-filter="all" type="button">全部</button>
+          <button class="filter" data-filter="garden" type="button">庭院</button>
+          <button class="filter" data-filter="balcony" type="button">阳台</button>
+          <button class="filter" data-filter="plant" type="button">植物</button>
+        </div>
+      </div>
+
+      <div class="gallery section-shell">
+        <article class="work-card work-card--wide reveal" data-category="garden" tabindex="0" aria-label="查看作品：雨后苔庭">
+          <div class="work-image work-image--moss" role="img" aria-label="雨后铺满蕨类与苔藓的庭院"></div>
+          <div class="work-meta"><div><p>庭院改造 · 2026</p><h3>雨后苔庭</h3></div><span>01</span></div>
+        </article>
+        <article class="work-card reveal" data-category="balcony" tabindex="0" aria-label="查看作品：三平米春天">
+          <div class="work-image work-image--balcony" role="img" aria-label="阳光下的阳台盆栽"></div>
+          <div class="work-meta"><div><p>阳台花园 · 2026</p><h3>三平米春天</h3></div><span>02</span></div>
+        </article>
+        <article class="work-card reveal" data-category="plant" tabindex="0" aria-label="查看作品：绣球观察日记">
+          <div class="work-image work-image--hydrangea" role="img" aria-label="盛开的白色绣球"></div>
+          <div class="work-meta"><div><p>植物养护 · 2025</p><h3>绣球观察日记</h3></div><span>03</span></div>
+        </article>
+        <article class="work-card work-card--wide reveal" data-category="garden" tabindex="0" aria-label="查看作品：香草小径">
+          <div class="work-image work-image--path" role="img" aria-label="两侧种满香草的石板小径"></div>
+          <div class="work-meta"><div><p>食用花园 · 2025</p><h3>香草小径</h3></div><span>04</span></div>
+        </article>
+      </div>
+      <p class="demo-note section-shell">以上为展示版示例内容，替换为你的实拍作品后即可发布。</p>
+    </section>
+
+    <section class="seasons" id="seasons" aria-labelledby="seasons-title">
+      <div class="section-shell reveal">
+        <p class="section-index">02 / 手记</p>
+        <div class="seasons-heading">
+          <div><p class="kicker">SEASONAL NOTES</p><h2 id="seasons-title">四季有信，<br>花园有声。</h2></div>
+          <p>种植不仅是收获，也是观察与理解。用简短的记录，为每一次尝试留下线索。</p>
+        </div>
+        <div class="notes-grid">
+          <article class="note-card"><p>春 · MAR</p><h3>第一批种子发芽了</h3><span>从浸种到破土，记录番茄幼苗的第七天。</span><time datetime="2026-03-18">03.18</time></article>
+          <article class="note-card"><p>夏 · JUN</p><h3>梅雨季的排水功课</h3><span>让盆土呼吸，也让根系安全度过潮湿天气。</span><time datetime="2026-06-26">06.26</time></article>
+          <article class="note-card"><p>秋 · SEP</p><h3>收集花园的种子</h3><span>把这一季的惊喜，仔细保存到下一个春天。</span><time datetime="2026-09-08">09.08</time></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section-shell" id="about" aria-labelledby="about-title">
+      <div class="about-visual reveal"><div class="about-badge"><span>7</span>年<br>种植记录</div></div>
+      <div class="about-copy reveal">
+        <p class="section-index">03 / 关于</p>
+        <p class="kicker">ABOUT THE GARDENER</p>
+        <h2 id="about-title">在植物身边，<br>重新认识时间。</h2>
+        <p>你好，我是一名业余园艺爱好者。喜欢观察一片新叶如何舒展，也享受亲手让一个普通角落慢慢拥有生命力。</p>
+        <p>这个网站是我的线上园艺簿：关于植物、设计、失败的尝试，以及那些意外长成的惊喜。</p>
+        <div class="about-sign">Garden, slowly.</div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-leaf" aria-hidden="true">☘</div>
+      <div class="section-shell contact-inner reveal">
+        <p class="kicker">LET'S GROW TOGETHER</p>
+        <h2 id="contact-title">一起聊聊植物吧。</h2>
+        <p>分享种植经验、交换种子，或只是发来一张今天盛开的花。</p>
+        <a class="button button-light" href="mailto:hello@example.com">写信给我 <span aria-hidden="true">↗</span></a>
+        <p class="contact-tip">发布前请在 index.html 中替换邮箱地址</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">叶</span><span>一隅花园</span></a>
+    <p>© <span id="year"></span> 一隅花园 · 用耐心种下每一天</p>
+    <a class="back-top" href="#top">回到顶部 ↑</a>
+  </footer>
+
+  <dialog class="lightbox" aria-labelledby="lightbox-title">
+    <button class="lightbox-close" type="button" aria-label="关闭">×</button>
+    <div class="lightbox-image"></div>
+    <div class="lightbox-copy"><p>园艺作品</p><h2 id="lightbox-title"></h2><span>这里可以补充植物品种、改造过程和养护心得。</span></div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
